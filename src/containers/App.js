@@ -29,19 +29,17 @@ class App extends Component {
 			return robot.name.toLowerCase().includes(searchfield.toLowerCase());
 		});
 
-		if(robots.length === 0) {
-			return <h1>Data Not Found!</h1>
-		}else {
-			return(
-				<div className="tc">
-					<h1>CodingFriends</h1>
-					<SearchBox searchChange={this.onSearchChange} />
-					<Scroll>
-						<CardList robots={filteredRobots} />
-					</Scroll>
-				</div>
-			);	
-		}
+		return !robots.length ?
+			<h1>Data Not Found!</h1> :
+		(
+			<div className="tc">
+				<h1>CodingFriends</h1>
+				<SearchBox searchChange={this.onSearchChange} />
+				<Scroll>
+					<CardList robots={filteredRobots} />
+				</Scroll>
+			</div>
+		);
 	}
 }
 
