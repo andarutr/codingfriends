@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/codingfriends/static/css/main.66d4aecc.css",
+    "main.js": "/codingfriends/static/js/main.8c45ac11.js",
+    "static/js/787.8f1fbfce.chunk.js": "/codingfriends/static/js/787.8f1fbfce.chunk.js",
+    "static/media/Urba.woff": "/codingfriends/static/media/Urba.2e39b3c61020a2fb888b.woff",
+    "index.html": "/codingfriends/index.html",
+    "main.66d4aecc.css.map": "/codingfriends/static/css/main.66d4aecc.css.map",
+    "main.8c45ac11.js.map": "/codingfriends/static/js/main.8c45ac11.js.map",
+    "787.8f1fbfce.chunk.js.map": "/codingfriends/static/js/787.8f1fbfce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66d4aecc.css",
+    "static/js/main.8c45ac11.js"
+  ]
+}
